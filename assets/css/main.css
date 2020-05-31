@@ -75,12 +75,17 @@ input, select, textarea {
 
 /* Profile picture */
 
-#profilepicture
-{
-	border-radius: 50% 50% 50% 50%;
+.profilepicture{
 	width: 100px;
 	height: 100px;
-}
+	margin: 0 auto;
+	margin-bottom: 50px;
+	border-radius: 50%; /*don't forget prefixes*/
+	background-image: url("/images/profilepic.png");
+	background-position: center center;
+	/* as mentioned by Vad: */
+	background-size: cover;
+  }
 
 /* Basic */
 
@@ -2602,6 +2607,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		border-radius: 5px;
 	}
 
 		.image img {
