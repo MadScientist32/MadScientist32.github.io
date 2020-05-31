@@ -72,6 +72,16 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+/* Profile picture */
+
+#circle
+{
+	border-radius: 50% 50% 50% 50%;
+	width: 100px;
+	height: 100px;
+}
+
 /* Basic */
 
 	@-ms-viewport {
