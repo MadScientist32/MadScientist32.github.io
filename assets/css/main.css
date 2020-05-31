@@ -75,7 +75,7 @@ input, select, textarea {
 
 /* Profile picture */
 
-#profilepicture
+.profilepicture
 {
 	border-radius: 50% 50% 50% 50%;
 	width: 100px;
